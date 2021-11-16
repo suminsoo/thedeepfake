@@ -1,0 +1,342 @@
+
+
+@font-face {
+    font-family: 'SongganggasaB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/OTSongganggasaBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SEBANG_Gothic_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body{
+    background-image: url(img/Back.jpg);
+    overflow-x: hidden;
+    margin: 10px;
+}
+
+#mainContainer{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+
+
+.row{
+    width: 100%;
+    display: flex;
+    }
+
+    .uprow{
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        }
+
+.col4{width: 100%; 
+    margin: 0px;  
+    
+    }
+
+.col4raw{width: 100%; 
+    margin: 0px;  
+    display: flex;
+    }
+   
+
+    .col44{width: 100%; 
+        margin-bottom:  3px;  
+        }
+
+.col3{width: 75%; 
+    margin: 0px;
+    }
+
+.col2{
+    width: 50%; 
+    margin: 0px;
+    padding-right: 10px;
+    }
+
+    .col2no{
+        width: 50%; 
+        margin: 0px;
+        }
+
+    .col2graphic{
+        width: 50%; 
+        margin: 0px;
+        padding-right: 10px;
+        padding: 0px;
+        }
+    
+
+.col1{width: 25%; 
+    padding-right: 15px; 
+    margin: 0px;
+    }
+
+    .col12{width: 25%; 
+        padding-right: 15px; 
+        margin-bottom: 10px;
+        }
+
+        .col112{width: 25%; 
+            padding-right: 0px; 
+            padding-top: 10px;
+            margin-bottom: 10px;
+           
+            }
+
+.col11{
+    width: 25%;  
+    margin: 0px;
+    }
+
+    .col111{
+        padding: 0px;
+    }
+
+.h30{height: 30px;}
+.h40{height: 40px;}
+.h50{height: 50px;}
+.h60{height: 60px;}
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+
+.yoYak2Line{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 5px;
+    font-family: 'GmarketSansMedium';
+}
+
+
+.articleTitle{
+    font-family: 'GmarketSansBold';
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    margin: 0px;
+    
+}
+
+.article{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'GmarketSansMedium';
+    font-size: 16px;
+
+}
+
+
+div{
+    box-sizing: border-box;
+}
+
+.img_katalk{margin-top: 10px;}
+
+.secondTitle{margin-top: 10px; margin-bottom: 5px;}
+
+.video{
+    margin-top: 7px;
+    
+}
+
+.small{
+    border: solid black;
+    border-width: thick;
+}
+
+.title{
+    font-size: 60px;
+    font-family: 'Diplomata', cursive;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+}
+
+.date{
+    font-family: 'Gupter', serif;
+    font-size: 15px;
+    text-align: start;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+    border-width: 3px;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.end{
+    font-family: 'Gupter', serif;
+    font-size: 15px;
+    text-align: start;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+    border-width: 3px;
+    padding-right: 15px;
+    margin: 0px;
+    text-align: end;
+}
+
+.message{
+    font-size: 50px;
+    font-family: 'Gupter', serif;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.message2{
+    font-size: 50px;
+    font-family: 'Gupter', serif;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: thick double #000000;
+    border-bottom: thick double #000000;
+    border-width: thick;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hanmadi{
+    font-family: 'GmarketSansMedium';
+    font-size: 16px;
+    text-align: start;
+    border-top: thick double #000000;
+    border-bottom: thick double #000000;
+    border-width: thick;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+.col444{
+    margin-top: 10px;
+    height: 5px;
+    width: 100%;
+}
+
+.parent{width: 100%; 
+    margin: 0px;  
+    
+    
+    }
+
+.child{
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    animation-name: child_ani;
+    animation-duration: 8s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease;
+    
+}
+
+@keyframes child_ani {
+
+    0%{
+        width: 100%;
+        top: 700px;
+        left: -800px;
+    }
+    
+    30%{
+        width: 100%;
+        left: 0px;
+    }
+
+    90%{
+        width: 100%;
+        left: 0px;
+        opacity: 100;
+    }
+
+    100%{
+        width: 100%;
+        left: 0px;
+        opacity: 0;
+    }
+
+    
+}
+
+
+.child2{
+    position: absolute;
+    top: 1080px;
+    left: 800px;
+    
+    animation-name: child2_ani;
+    animation-duration: 8s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease;
+}
+
+@keyframes child2_ani {
+    0%{
+        width: 30%;
+        top: 1080px;
+        left: 1500px;
+    }
+
+    30%{
+        width: 30%;
+        left: 800px;
+    }
+
+    90%{
+        width: 30%;
+        left: 800px;
+        opacity: 100;
+    }
+
+    100%{
+        width: 30%;
+        left: 800px;
+        opacity: 0;
+    }
+    
+}
+
